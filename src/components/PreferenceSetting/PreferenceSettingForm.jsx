@@ -174,14 +174,6 @@ function PrefSetForm() {
 									name="daily-reminder"
 									id=""
 								/>
-								<br />
-								<input type="checkbox" name="disable-daily-rem" id="" />
-								<label
-									htmlFor="disable-daily-rem"
-									className="disable-daily-rem"
-								>
-									Notify me of time changes
-								</label>
 							</div>
 						</div>
 
@@ -195,6 +187,12 @@ function PrefSetForm() {
 								<option value="web-no">Do not remind me on the web</option>
 							</select>
 						</div>
+					</div>
+					<div className={style.prefformarray}>
+						<label htmlFor="disable-daily-rem" className="disable-daily-rem">
+							<input type="checkbox" name="disable-daily-rem" id="" />
+							Notify me of time changes
+						</label>
 					</div>
 
 					<div className={style.prefformarray}>
