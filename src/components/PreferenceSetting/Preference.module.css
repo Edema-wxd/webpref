@@ -1,0 +1,11 @@
+:local(.preference) {
+	background-color: #e9f3f5;
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 1124px) {
+	:local(.preference) {
+		flex-direction: column;
+	}
+}
