@@ -140,6 +140,12 @@
 	:local(.radioar) {
 		justify-content: flex-start;
 	}
+	:local(.select) {
+		width: 18rem;
+	}
+	:local(.time) {
+		width: 16rem;
+	}
 }
 
 @media screen and (max-width: 500px) {

@@ -51,23 +51,6 @@ function PrefSetHNN() {
 					<img src={arrowleft} alt="" />
 					<p className={style.prefsidetext}>Back</p>
 				</a>
-				<a href="/" className={style.prefsiderow}>
-					<img src={setting} alt="" />
-					<p className={style.prefsidetext}>Setting</p>
-					<img src={arrowright} alt="" />
-				</a>
-				<a href="/" className={style.prefsiderow}>
-					<p className={style.prefsidetext}>Preference</p>
-				</a>
-				<div className={style.prefsiderow}>
-					<p className={style.prefsidetext}>My Profile</p>
-				</div>
-				<a href="/" className={style.prefsiderow}>
-					<img src={logout} alt="" />
-					<p className={style.prefsidetext} id={style.logouttxt}>
-						Logout
-					</p>
-				</a>
 			</div>
 		</div>
 	);
