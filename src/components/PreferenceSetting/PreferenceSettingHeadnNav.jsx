@@ -23,7 +23,9 @@ function PrefSetHNN() {
 				alt=""
 			/>
 
-			<img src={preflogo} alt="" />
+			<a href="/">
+				<img src={preflogo} alt="" />
+			</a>
 			{openMenu ? (
 				<div className={style.prefsidemob}>
 					<a href="/" className={style.prefsiderow}>
